@@ -35,7 +35,7 @@ def location_to_coordinates(year: int) -> dict:
             continue
         film_location_in_coor[film] = (film_coordiantes.latitude, film_coordiantes.longitude)
         count += 1
-        if time.perf_counter() - start > 5:
+        if time.perf_counter() - start > 180:
             break
         print(count, film, film_location_in_coor[film], sep=" | ")
     return film_location_in_coor
