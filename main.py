@@ -37,7 +37,6 @@ def location_to_coordinates(year: int) -> dict:
         count += 1
         if time.perf_counter() - start > 180:
             break
-        print(count, film, film_location_in_coor[film], sep=" | ")
     return film_location_in_coor
 
 
@@ -93,7 +92,7 @@ def user_input() -> tuple:
         latitude, longtitude = location_input.split(",")
         latitude = latitude.strip()
         longtitude = longtitude.strip()
-        if not location_checker(longtitude, latitude):
+        if not location_checker(latitude, longtitude):
             return
     except Exception:
         print("Location in a wrong format")
