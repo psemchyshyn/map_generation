@@ -125,6 +125,7 @@ def map_builder(year: int, longtitude: float, latitude: float, num=10) -> None:
                                                  popup=place, radius=3))
     mapp.add_child(fg_1_layer)
     mapp.add_child(fg_2_layer)
+    mapp.add_child(folium.LayerControl())
     mapp.save("map_1.html")
 
 
