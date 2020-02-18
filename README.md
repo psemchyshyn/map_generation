@@ -25,7 +25,7 @@ The programm is useful, for analysing films and their locations by providing a y
 
 Examples:
 __________________________________________
-https://raw.githubusercontent.com/psemchyshyn/map_generation/master/Input_example.png)
-https://raw.githubusercontent.com/psemchyshyn/map_generation/master/Corona_virus_example.png) 
-https://raw.githubusercontent.com/psemchyshyn/map_generation/master/Example_run.png)
+![alt text]https://raw.githubusercontent.com/psemchyshyn/map_generation/master/Input_example.png
+(https://raw.githubusercontent.com/psemchyshyn/map_generation/master/Corona_virus_example.png)
+![]https://raw.githubusercontent.com/psemchyshyn/map_generation/master/Example_run.png
 
