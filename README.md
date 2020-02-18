@@ -2,6 +2,14 @@
 Building a map for finding film locations in a particular year
 
 
+Required modules:
+__________________________________________
+pip install mpu
+pip install geopy
+pip install folium
+pip install pandas
+pip install colllections
+
 Usage:
 ___________________________________________
 The programm consists of 3 python modules, the module, which runs the programm is main.py.
@@ -18,6 +26,20 @@ which were infected by Coronavirus. Data is actual on 09.02.2020
 
 HTML - structure:
 __________________________________________
+Using javascript code, generates a map with the hepl of OpenStreetMap.
+
+<head></head>
+contains a link to the js scripts, caskade css stylesheets and other resources required for right depiction of map.
+
+The body tag:
+
+<body></body>
+contains the div container with a link to our map.
+
+The script tag:
+
+<script></script>
+Mostly uses js code to portray markers, circlemarkers for points on folium map
 
 Conclusions:
 __________________________________________
@@ -25,7 +47,7 @@ The programm is useful, for analysing films and their locations by providing a y
 
 Examples:
 __________________________________________
-![alt text]https://raw.githubusercontent.com/psemchyshyn/map_generation/master/Input_example.png
-(https://raw.githubusercontent.com/psemchyshyn/map_generation/master/Corona_virus_example.png)
+![]https://raw.githubusercontent.com/psemchyshyn/map_generation/master/Input_example.png
+![]https://raw.githubusercontent.com/psemchyshyn/map_generation/master/Corona_virus_example.png
 ![]https://raw.githubusercontent.com/psemchyshyn/map_generation/master/Example_run.png
 
